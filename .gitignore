@@ -193,6 +193,31 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+# Build output
+/Debug/
+/Release/
+*.o
+*.d
+*.elf
+*.bin
+*.hex
+*.map
+*.list
+*.size
+
+# IDE settings (keep .project and .cproject for reproducibility)
+.settings/
+.metadata/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
 
 # Cursor
 #  Cursor is an AI-powered code editor. `.cursorignore` specifies files/directories to
